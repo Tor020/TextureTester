@@ -1,13 +1,27 @@
-body
-{
-background-image:url('../textures/grncol.png');
-margin:5%;
-font-family: 'Roboto Condensed', sans-serif;
 
+.extra{
+  display:none;
+}
+.css{
+  display:none;
+}
+.utilities{
+  display:none;
+}
+.displayjsdiv{
+  display:none;
+}
+.jsnavigation{
+  display:none;
 }
 
 
-
+body
+{
+background-image:url('../textures/blktri.png');
+margin:5%;
+font-family: 'Roboto Condensed', sans-serif;
+}
 h1 {
   color: #0095dd;
   font-size: 2.25em;
@@ -60,11 +74,15 @@ ul a:hover {
 }
 
 .syntax {
-  background-image:url('../textures/whitebump.png');
+  background:#826969;
   color: black;
   margin: 10px 0;
   border: solid thin #ddd;
+  padding-left:20px;
+  padding-bottom:20px;
   font-family: 'Roboto Condensed', sans-serif;
+  -webkit-box-shadow: 2px 7px 1px 0 rgba(0,0,0,0.3) ;
+  box-shadow: 2px 7px 1px 0 rgba(0,0,0,0.3) ;
 
 }
 

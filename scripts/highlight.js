@@ -1,4 +1,3 @@
-
 //text highlighting completely from https://codepen.io/bisk8s/pen/LGfBh
 $().ready(init);
 

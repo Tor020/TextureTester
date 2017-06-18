@@ -13,13 +13,16 @@ const dispjsnavdiv = document.querySelector('.jsnavigation');
 
 //event delegation may be used here
 ext.addEventListener('click', function(){
-extdiv.classList.toggle('extra');
+// extdiv.classList.toggle('extra');
+extdiv.classList.toggle('flex-extra');
 })
 css.addEventListener('click', function(){
-cssdiv.classList.toggle('css');
+// cssdiv.classList.toggle('css');
+cssdiv.classList.toggle('flex-css');
 })
 util.addEventListener('click', function(){
-utildiv.classList.toggle('utilities');
+// utildiv.classList.toggle('utilities');
+utildiv.classList.toggle('flex-util');
 })
 
 dispjs.addEventListener('click', function(){

@@ -1,5 +1,5 @@
 body
-{background-image:url('/assets/grncol.png');
+{background-image:url('./textures/grncol.png');
 margin:5%;
 font-family: 'Roboto Condensed', sans-serif;
 
@@ -30,7 +30,7 @@ ul a:hover {
 
 .nav {
   margin:20px;
-  background-image:url('/assets/whitebump.png');
+  background-image:url('./textures/whitebump.png');
   display: inline-block;
   vertical-align: top;
   padding:20px;
@@ -60,7 +60,7 @@ ul a:hover {
 }
 
 .syntax {
-  background-image:url('/assets/whitebump.png');
+  background-image:url('./textures/whitebump.png');
   color: black;
   margin: 10px 0;
   border: solid thin #ddd;

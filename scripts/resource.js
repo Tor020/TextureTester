@@ -10,8 +10,10 @@ const utildiv = document.querySelector('.utilities');
 const dispjs = document.getElementById('dispjs');
 const dispjsdiv = document.querySelector('.displayjsdiv');
 const dispjsnavdiv = document.querySelector('.jsnavigation');
-const document.querySelector('selector');
-const document.querySelector('selector');
+const c2Steal = document.getElementById('c2Steal');
+const c2Stealdiv = document.querySelector('.c2Steal');
+
+
 //event delegation may be used here
 ext.addEventListener('click', function(){
 // extdiv.classList.toggle('extra');
@@ -25,6 +27,11 @@ util.addEventListener('click', function(){
 // utildiv.classList.toggle('utilities');
 utildiv.classList.toggle('flex-util');
 })
+c2Steal.addEventListener('click', function (e) {
+  c2Stealdiv.classList.toggle('flex-c2Steal');
+});
+
+
 
 dispjs.addEventListener('click', function(){
 dispjsdiv.classList.toggle('displayjsdiv');

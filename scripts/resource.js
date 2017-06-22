@@ -10,7 +10,8 @@ const utildiv = document.querySelector('.utilities');
 const dispjs = document.getElementById('dispjs');
 const dispjsdiv = document.querySelector('.displayjsdiv');
 const dispjsnavdiv = document.querySelector('.jsnavigation');
-
+const document.querySelector('selector');
+const document.querySelector('selector');
 //event delegation may be used here
 ext.addEventListener('click', function(){
 // extdiv.classList.toggle('extra');

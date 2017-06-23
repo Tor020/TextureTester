@@ -2,11 +2,22 @@ div {
   transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
 }
 
-.c2Steal{
-  display:none;
+li{
+list-style: none; /* Remove list bullets */
+
 }
 
-.flex-c2Steal{
+a{
+  text-decoration:none;
+
+}
+
+
+.c2Steal {
+  display: none;
+}
+
+.flex-c2Steal {
   min-height: 20vh;
   display: flex;
   flex-direction: row;
@@ -121,15 +132,10 @@ hr {
   border-bottom: 1px solid #fff;
 }
 
-ul a {
-  text-decoration: none;
-}
-
-ul a:hover {
-  text-decoration: underline;
-}
 
 .nav {
+    padding-left:20px;
+    padding-bottom:20px;
   margin: 5px;
   background-image: url('../textures/whitebump.png');
   display: inline-block;
@@ -234,4 +240,9 @@ ul a:hover {
   .syntax {
     font-size: 12px;
   }
+}
+
+a:hover{
+    color: #51d04a;
+  background-color: #607d8b;
 }

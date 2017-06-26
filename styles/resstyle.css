@@ -140,6 +140,7 @@ hr {
   background-image: url('../textures/whitebump.png');
   display: inline-block;
   vertical-align: top;
+  width: 15%;
   flex: 1 1 auto;
 }
 

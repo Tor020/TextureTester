@@ -12,7 +12,9 @@ a{
 
 }
 
-
+.memes{
+  letter-spacing: 2.5px;
+}
 .c2Steal {
   display: none;
 }
